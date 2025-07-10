@@ -292,7 +292,7 @@ class _UploadTab extends GetView<UploadController> {
 }
 
 class _HistoryTab extends GetView<UploadController> {
-  const _HistoryTab({super.key});
+  const _HistoryTab();
 
   @override
   Widget build(BuildContext context) {
