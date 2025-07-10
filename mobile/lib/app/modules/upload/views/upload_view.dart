@@ -6,7 +6,7 @@ import '../../../data/models/scan.dart';
 import '../../auth/controllers/auth_controller.dart';
 
 class UploadView extends GetView<UploadController> {
-  const UploadView({Key? key}) : super(key: key);
+  const UploadView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -292,7 +292,7 @@ class _UploadTab extends GetView<UploadController> {
 }
 
 class _HistoryTab extends GetView<UploadController> {
-  const _HistoryTab({Key? key}) : super(key: key);
+  const _HistoryTab({super.key});
 
   @override
   Widget build(BuildContext context) {

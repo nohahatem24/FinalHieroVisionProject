@@ -11,7 +11,7 @@ class StarRating extends StatefulWidget {
   final Color? borderColor;
 
   const StarRating({
-    Key? key,
+    super.key,
     required this.rating,
     this.onRatingChanged,
     this.size = 24.0,
@@ -19,7 +19,7 @@ class StarRating extends StatefulWidget {
     this.readOnly = false,
     this.color,
     this.borderColor,
-  }) : super(key: key);
+  });
 
   @override
   _StarRatingState createState() => _StarRatingState();
@@ -91,14 +91,14 @@ class StarRatingDisplay extends StatelessWidget {
   final int? reviewCount;
 
   const StarRatingDisplay({
-    Key? key,
+    super.key,
     required this.rating,
     this.size = 16.0,
     this.color,
     this.borderColor,
     this.showRating = false,
     this.reviewCount,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {

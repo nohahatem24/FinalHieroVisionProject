@@ -8,8 +8,7 @@ import 'landmark_card.dart';
 class LandmarksListWidget extends GetView<LandmarksController> {
   final Function(Landmark, BuildContext) onLandmarkTap;
 
-  const LandmarksListWidget({Key? key, required this.onLandmarkTap})
-    : super(key: key);
+  const LandmarksListWidget({super.key, required this.onLandmarkTap});
 
   @override
   Widget build(BuildContext context) {

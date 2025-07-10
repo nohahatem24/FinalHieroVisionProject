@@ -8,8 +8,7 @@ import '../../../components/star_rating.dart';
 class BookmarksBottomSheet extends GetView<LandmarksController> {
   final Function(Landmark, BuildContext) onLandmarkTap;
 
-  const BookmarksBottomSheet({Key? key, required this.onLandmarkTap})
-    : super(key: key);
+  const BookmarksBottomSheet({super.key, required this.onLandmarkTap});
 
   @override
   Widget build(BuildContext context) {

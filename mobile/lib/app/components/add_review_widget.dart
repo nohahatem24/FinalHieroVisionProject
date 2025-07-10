@@ -9,12 +9,12 @@ class AddReviewWidget extends StatefulWidget {
   final bool isEditing;
 
   const AddReviewWidget({
-    Key? key,
+    super.key,
     required this.onSubmit,
     this.initialRating,
     this.initialComment,
     this.isEditing = false,
-  }) : super(key: key);
+  });
 
   @override
   State<AddReviewWidget> createState() => _AddReviewWidgetState();

@@ -6,7 +6,7 @@ import '../../../data/models/landmark.dart';
 import '../../../data/models/booking.dart';
 
 class BookingView extends GetView<BookingController> {
-  const BookingView({Key? key}) : super(key: key);
+  const BookingView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +31,7 @@ class BookingView extends GetView<BookingController> {
         width: double.infinity,
         height: double.infinity,
         decoration: const BoxDecoration(
-          image: const DecorationImage(
+          image: DecorationImage(
             image: AssetImage('assets/images/wallpaper.jpeg'),
             fit: BoxFit.cover,
           ),
@@ -472,7 +472,7 @@ class BookingView extends GetView<BookingController> {
         width: double.infinity,
         height: double.infinity,
         decoration: const BoxDecoration(
-          image: const DecorationImage(
+          image: DecorationImage(
             image: AssetImage('assets/images/wallpaper.jpeg'),
             fit: BoxFit.cover,
           ),

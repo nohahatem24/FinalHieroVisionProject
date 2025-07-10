@@ -4,7 +4,7 @@ import '../controllers/result_controller.dart';
 import '../../../core/theme/app_theme.dart';
 
 class ResultView extends GetView<ResultController> {
-  const ResultView({Key? key}) : super(key: key);
+  const ResultView({super.key});
 
   @override
   Widget build(BuildContext context) {

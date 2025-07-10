@@ -10,7 +10,8 @@ class SampleDataService {
         userId: 'user1',
         userName: 'Ahmed Hassan',
         rating: 5.0,
-        comment: 'Absolutely incredible! The Great Pyramid is a must-see wonder. The engineering and history behind it is mind-blowing.',
+        comment:
+            'Absolutely incredible! The Great Pyramid is a must-see wonder. The engineering and history behind it is mind-blowing.',
         createdAt: DateTime.now().subtract(const Duration(days: 2)),
       ),
       Review(
@@ -19,7 +20,8 @@ class SampleDataService {
         userId: 'user2',
         userName: 'Sarah Johnson',
         rating: 4.5,
-        comment: 'Amazing experience! The tour guide was very knowledgeable. Would definitely recommend visiting early in the morning.',
+        comment:
+            'Amazing experience! The tour guide was very knowledgeable. Would definitely recommend visiting early in the morning.',
         createdAt: DateTime.now().subtract(const Duration(days: 5)),
       ),
       Review(
@@ -28,7 +30,8 @@ class SampleDataService {
         userId: 'user3',
         userName: 'Mohamed Ali',
         rating: 4.8,
-        comment: 'Karnak Temple is absolutely stunning. The massive columns and hieroglyphs tell such an amazing story.',
+        comment:
+            'Karnak Temple is absolutely stunning. The massive columns and hieroglyphs tell such an amazing story.',
         createdAt: DateTime.now().subtract(const Duration(days: 1)),
       ),
     ];
@@ -36,13 +39,15 @@ class SampleDataService {
 
   static List<Landmark> getSampleLandmarks() {
     final reviews = getSampleReviews();
-    
+
     return [
       Landmark(
         id: '1',
         name: 'Great Pyramid of Giza',
-        description: 'The Great Pyramid of Giza is the oldest and largest of the three pyramids in the Giza pyramid complex. Built as a tomb for the pharaoh Khufu, it was completed around 2560 BCE and is one of the Seven Wonders of the Ancient World.',
-        imageUrl: 'https://images.unsplash.com/photo-1539650116574-75c0c6d73c0e?w=800',
+        description:
+            'The Great Pyramid of Giza is the oldest and largest of the three pyramids in the Giza pyramid complex. Built as a tomb for the pharaoh Khufu, it was completed around 2560 BCE and is one of the Seven Wonders of the Ancient World.',
+        imageUrl:
+            'https://cdn-imgix.headout.com/media/images/e3e4b92772a00bf08922a79dd5a874d7-Giza.jpg?w=1200&h=675&fit=crop&auto=format,compress&q=80&cs=strip&ixlib=react-8.6.4&v=1689647915',
         location: 'Giza, Egypt',
         type: 'pyramid',
         hieroglyphName: '𓉴',
@@ -57,8 +62,10 @@ class SampleDataService {
       Landmark(
         id: '2',
         name: 'Temple of Karnak',
-        description: 'The Karnak Temple Complex is a vast mix of decayed temples, chapels, pylons, and other buildings. It was built over more than 1000 years by successive pharaohs, making it one of the largest religious complexes ever constructed.',
-        imageUrl: 'https://images.unsplash.com/photo-1561731213-d4f1631bd6c4?w=800',
+        description:
+            'The Karnak Temple Complex is a vast mix of decayed temples, chapels, pylons, and other buildings. It was built over more than 1000 years by successive pharaohs, making it one of the largest religious complexes ever constructed.',
+        imageUrl:
+            'https://lp-cms-production.imgix.net/2023-07/shutterstockRF179121524.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75&ar=16%3A9&cs=srgb&ixlib=react-8.6.4&v=1689647915',
         location: 'Luxor, Egypt',
         type: 'temple',
         hieroglyphName: '𓉗',
@@ -73,8 +80,10 @@ class SampleDataService {
       Landmark(
         id: '3',
         name: 'Valley of the Kings',
-        description: 'The Valley of the Kings is a valley in Egypt where, for a period of nearly 500 years from the 16th to 11th century BC, rock-cut tombs were excavated for the pharaohs and powerful nobles of the New Kingdom.',
-        imageUrl: 'https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=800',
+        description:
+            'The Valley of the Kings is a valley in Egypt where, for a period of nearly 500 years from the 16th to 11th century BC, rock-cut tombs were excavated for the pharaohs and powerful nobles of the New Kingdom.',
+        imageUrl:
+            'https://www.cleopatraegypttours.com/wp-content/uploads/2020/01/Valley-of-the-Kings.jpg?w=1920&h=640&fit=crop&crop=faces%2Cedges&auto=format&q=75&ar=16%3A9&cs=srgb&ixlib=react-8.6.4&v=1689647915',
         location: 'Luxor, Egypt',
         type: 'tomb',
         hieroglyphName: '𓈖',
@@ -88,8 +97,10 @@ class SampleDataService {
       Landmark(
         id: '4',
         name: 'Abu Simbel Temples',
-        description: 'Abu Simbel is an archaeological site containing two massive rock-cut temples in southern Egypt. The temples were originally carved out of the mountainside in the 13th century BC, during the 19th Dynasty reign of the Pharaoh Ramesses II.',
-        imageUrl: 'https://images.unsplash.com/photo-1573160103600-7ac637e2cdc4?w=800',
+        description:
+            'Abu Simbel is an archaeological site containing two massive rock-cut temples in southern Egypt. The temples were originally carved out of the mountainside in the 13th century BC, during the 19th Dynasty reign of the Pharaoh Ramesses II.',
+        imageUrl:
+            'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj10nzR8OVlRmQ0q0qbwowgj_g28N37jrXTm7GsXAp0peY0UQ7aLDnSk_fVvQXXsqGfbveV_tgRJFfYWJMI6OTHcbfp8KQwp3w3EWvPpmnAZKEUbReL0G3mIEv1n5u2zFuKqfKP3g7eheg/w600-h314-p-k-no-nu/abu-simbel-temples-1.jpg,w600-h314-p-k-no-nu/abu-simbel-temples-2.jpg,w600-h314-p-k-no-nu/abu-simbel-temples-3.jpg,w600-h314-p-k-no-nu/abu-simbel-temples-4.jpg',
         location: 'Aswan, Egypt',
         type: 'temple',
         hieroglyphName: '𓄿',
@@ -103,8 +114,10 @@ class SampleDataService {
       Landmark(
         id: '5',
         name: 'Temple of Hatshepsut',
-        description: 'The Mortuary Temple of Hatshepsut is a mortuary temple built during the reign of Pharaoh Hatshepsut of the Eighteenth Dynasty of Egypt. Located opposite the city of Luxor, it is considered to be a masterpiece of ancient architecture.',
-        imageUrl: 'https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=800',
+        description:
+            'The Mortuary Temple of Hatshepsut is a mortuary temple built during the reign of Pharaoh Hatshepsut of the Eighteenth Dynasty of Egypt. Located opposite the city of Luxor, it is considered to be a masterpiece of ancient architecture.',
+        imageUrl:
+            'https://www.worldhistory.org/img/c/p/1600x900/187.jpg?v=1700886260',
         location: 'Luxor, Egypt',
         type: 'temple',
         hieroglyphName: '𓁹',
@@ -118,8 +131,10 @@ class SampleDataService {
       Landmark(
         id: '6',
         name: 'Sphinx of Giza',
-        description: 'The Great Sphinx of Giza is a limestone statue of a reclining sphinx with the head of a human and the body of a lion. Facing directly from west to east, it stands on the Giza plateau on the west bank of the Nile.',
-        imageUrl: 'https://images.unsplash.com/photo-1571088170309-1416f4aa6781?w=800',
+        description:
+            'The Great Sphinx of Giza is a limestone statue of a reclining sphinx with the head of a human and the body of a lion. Facing directly from west to east, it stands on the Giza plateau on the west bank of the Nile.',
+        imageUrl:
+            'https://www.egypttoursportal.com/images/2017/11/The-Great-Sphinx-Egypt-Tours-Portal-1-e1511900988420.jpg?w=1200&h=675&fit=crop&auto=format,compress&q=80&cs=strip&ixlib=react-8.6.4&v=1689647915',
         location: 'Giza, Egypt',
         type: 'monument',
         hieroglyphName: '𓎛',
@@ -133,8 +148,10 @@ class SampleDataService {
       Landmark(
         id: '7',
         name: 'Philae Temple',
-        description: 'Philae is an island in Lake Nasser, Egypt. It was the previous site of an Ancient Egyptian temple complex in southern Egypt. The complex was dismantled and relocated to nearby Agilkia Island as part of the UNESCO Nubia Campaign project.',
-        imageUrl: 'https://images.unsplash.com/photo-1573160103540-ce3b0b95c7d4?w=800',
+        description:
+            'Philae is an island in Lake Nasser, Egypt. It was the previous site of an Ancient Egyptian temple complex in southern Egypt. The complex was dismantled and relocated to nearby Agilkia Island as part of the UNESCO Nubia Campaign project.',
+        imageUrl:
+            'https://d3rr2gvhjw0wwy.cloudfront.net/uploads/mandators/49581/file-manager/egypt-philae-temple.jpg?w=800&h=450&fit=crop&auto=format,compress&q=80&cs=strip&ixlib=react-8.6.4&v=1689647915',
         location: 'Aswan, Egypt',
         type: 'temple',
         hieroglyphName: '𓊪',
@@ -148,8 +165,10 @@ class SampleDataService {
       Landmark(
         id: '8',
         name: 'Saqqara Pyramid Complex',
-        description: 'Saqqara is an Egyptian village in the Giza Governorate, that contains ancient burial grounds of Egyptian royalty, serving as the necropolis for the ancient Egyptian capital, Memphis. The area contains numerous pyramids, including the world\'s oldest standing step pyramid.',
-        imageUrl: 'https://images.unsplash.com/photo-1573160103475-53b4c2d42eb8?w=800',
+        description:
+            'Saqqara is an Egyptian village in the Giza Governorate, that contains ancient burial grounds of Egyptian royalty, serving as the necropolis for the ancient Egyptian capital, Memphis. The area contains numerous pyramids, including the world\'s oldest standing step pyramid.',
+        imageUrl:
+            'https://www.worldhistory.org/img/c/p/1200x900/4548.jpg?v=1700886260',
         location: 'Memphis, Egypt',
         type: 'pyramid',
         hieroglyphName: '𓊨',

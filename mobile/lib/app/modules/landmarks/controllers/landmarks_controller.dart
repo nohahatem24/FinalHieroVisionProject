@@ -214,6 +214,7 @@ class LandmarksController extends GetxController {
   }
 
   // Refresh data
+  @override
   Future<void> refresh() async {
     await loadLandmarks();
   }

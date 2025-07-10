@@ -42,10 +42,6 @@ class UploadController extends GetxController {
     }
   }
 
-  @override
-  void onClose() {
-    super.onClose();
-  }
 
   Future<void> loadRecentScans() async {
     try {

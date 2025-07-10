@@ -10,12 +10,12 @@ class ReviewWidget extends StatelessWidget {
   final Function(Review)? onDelete;
 
   const ReviewWidget({
-    Key? key,
+    super.key,
     required this.review,
     this.canEdit = false,
     this.onEdit,
     this.onDelete,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -164,8 +164,7 @@ class AddReviewWidget extends StatefulWidget {
   final Function(double rating, String comment) onSubmit;
   final Review? existingReview;
 
-  const AddReviewWidget({Key? key, required this.onSubmit, this.existingReview})
-    : super(key: key);
+  const AddReviewWidget({super.key, required this.onSubmit, this.existingReview});
 
   @override
   _AddReviewWidgetState createState() => _AddReviewWidgetState();

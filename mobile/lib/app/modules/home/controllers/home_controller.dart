@@ -39,11 +39,6 @@ class HomeController extends GetxController {
     });
   }
 
-  @override
-  void onReady() {
-    super.onReady();
-    // Called after the widget is rendered
-  }
 
   @override
   void onClose() {

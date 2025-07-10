@@ -4,7 +4,7 @@ import '../controllers/booking_controller.dart';
 import '../../../core/theme/app_theme.dart';
 
 class PaymentDetailsView extends GetView<BookingController> {
-  const PaymentDetailsView({Key? key}) : super(key: key);
+  const PaymentDetailsView({super.key});
 
   @override
   Widget build(BuildContext context) {

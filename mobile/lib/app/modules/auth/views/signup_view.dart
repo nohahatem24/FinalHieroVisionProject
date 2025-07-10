@@ -4,14 +4,14 @@ import '../controllers/auth_controller.dart';
 import '../../../core/theme/app_theme.dart';
 
 class SignupView extends GetView<AuthController> {
-  const SignupView({Key? key}) : super(key: key);
+  const SignupView({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-          image: const DecorationImage(
+          image: DecorationImage(
             image: AssetImage('assets/images/wallpaper.jpeg'),
             fit: BoxFit.cover,
           ),

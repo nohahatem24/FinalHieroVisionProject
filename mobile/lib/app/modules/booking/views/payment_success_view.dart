@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import '../../../core/theme/app_theme.dart';
 
 class PaymentSuccessView extends StatelessWidget {
-  const PaymentSuccessView({Key? key}) : super(key: key);
+  const PaymentSuccessView({super.key});
 
   @override
   Widget build(BuildContext context) {

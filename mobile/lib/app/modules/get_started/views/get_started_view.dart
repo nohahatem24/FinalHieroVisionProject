@@ -3,7 +3,7 @@ import 'package:mobile/app/modules/get_started/controllers/get_started_controlle
 import '../../../core/theme/app_theme.dart';
 
 class GetStartedView extends StatelessWidget {
-  const GetStartedView({Key? key}) : super(key: key);
+  const GetStartedView({super.key});
 
   @override
   Widget build(BuildContext context) {

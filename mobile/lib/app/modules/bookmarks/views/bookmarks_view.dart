@@ -4,7 +4,7 @@ import '../controllers/bookmarks_controller.dart';
 import '../../../core/theme/app_theme.dart';
 
 class BookmarksView extends GetView<BookmarksController> {
-  const BookmarksView({Key? key}) : super(key: key);
+  const BookmarksView({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +15,7 @@ class BookmarksView extends GetView<BookmarksController> {
       ),
       body: Container(
         decoration: const BoxDecoration(
-          image: const DecorationImage(
+          image: DecorationImage(
             image: AssetImage('assets/images/wallpaper.jpeg'),
             fit: BoxFit.cover,
           ),

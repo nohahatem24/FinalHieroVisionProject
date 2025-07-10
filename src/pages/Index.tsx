@@ -29,7 +29,7 @@ const Index = () => {
       <div className="relative mb-16 h-80 md:h-96 rounded-2xl overflow-hidden shadow-2xl mx-auto max-w-5xl">
         <div className="absolute inset-0 bg-gradient-to-r from-[#B98E57]/30 to-[#5E4022]/30 z-10"></div>
         <img 
-          src="https://images.unsplash.com/photo-1482881497185-d4a9ddbe4151?auto=format&fit=crop&w=1200&h=600"
+          src="https://cdn-imgix.headout.com/media/images/e3e4b92772a00bf08922a79dd5a874d7-Giza.jpg?w=1200&h=675&fit=crop&auto=format,compress&q=80&cs=strip"
           alt="Egyptian pyramids in desert landscape"
           className="w-full h-full object-cover"
         />

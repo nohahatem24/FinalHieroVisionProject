@@ -9,8 +9,7 @@ class LandmarkCard extends GetView<LandmarksController> {
   final Landmark landmark;
   final VoidCallback onTap;
 
-  const LandmarkCard({Key? key, required this.landmark, required this.onTap})
-    : super(key: key);
+  const LandmarkCard({super.key, required this.landmark, required this.onTap});
 
   @override
   Widget build(BuildContext context) {

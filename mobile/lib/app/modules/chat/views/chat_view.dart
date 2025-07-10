@@ -5,7 +5,7 @@ import '../controllers/chat_controller.dart';
 import '../../../core/theme/app_theme.dart';
 
 class ChatView extends GetView<ChatController> {
-  const ChatView({Key? key}) : super(key: key);
+  const ChatView({super.key});
 
   @override
   Widget build(BuildContext context) {
